@@ -1,5 +1,5 @@
-a = int(input(''))
-b = int(input(''))
+a = int(input('Valor 1:'))
+b = int(input('Valor 2:'))
 i = 1
 cont = 0
 cont2 = 0
