@@ -1,25 +1,25 @@
-vida =  100
-regen =  0
+vida = 100
+regen = 0
 tempo = []
 
-x =  int ( input ( " " ))
+x = int(input(""))
 
-para eu na  faixa (x):
+for i in range(x):
   
-  d, t =  input ( " " ) .split ()
-  d =  int (d)
-  t =  int (t)
+  d, t = input("").split()
+  d = int(d)
+  t = int(t)
   vida = vida - d
-  tempo.append (t)
+  tempo.append(t)
 
-regen =  max (tempo) -  min (andamento)
+regen = max(tempo) - min(tempo) 
 
-y =  int ( entrada ( " " ))
+y = int(input(""))
 
 regen = regen * y
-vida = vida + regeneração
+vida = vida + regen
 
-se vida >  0 :
-  imprimir ( " Inimigo Vivo " )
-else :
-  imprimir ( " Inimigo Morto " )
+if vida > 0:
+  print("Inimigo Vivo")
+else:
+  print("Inimigo Morto")
